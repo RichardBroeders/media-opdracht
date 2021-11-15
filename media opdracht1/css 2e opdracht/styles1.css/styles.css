@@ -1,0 +1,58 @@
+body { 
+    color:grey;
+}
+.black-border {
+    border: 5px solid black; 
+}
+.yellow-background {
+    background-color: yellow;
+}
+section {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  h1 { 
+    text-shadow: 2px 2px white;
+  }
+
+.grey-border{
+    border: 5px solid gray}
+.black-background{
+    background-color: black;
+}   
+main {margin: 50px 0px}
+footer {margin: 50px 5px}
+
+p {padding: 18px 10px 5px 18px}
+ol {margin:  5px 10px}
+h2 {margin: 15px;}
+img {margin:25px}
+a {font-size: 25px; font-style: italic; text-decoration: none;}
+.navigation-links li {display: inline; padding: 8px;
+    background-color: #dddddd;
+    }
+ 
+@media (max-width: 320px) {img {height: 100px;}}
+
+@media (min-width: 1024px) {body {background-color: red; color: green;
+font-size: 50%; line-height: 20px;}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
